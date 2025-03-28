@@ -65,7 +65,7 @@ def destruct():
     try:
         # File paths
         license_path = r"G:\LICENSE"
-        rawaccel_path = r"G:\RawAccel_v1.6.1\rawaccel.exe"
+        rawaccel_path = r"G:\RawAccel_v1.6.1\RawAccel\rawaccel.exe"
 
         # Retrieve original rawaccel.exe hex (from stored file)
         with open("original_rawaccel_hex.txt", "r") as f:
